@@ -37,18 +37,43 @@
       <p><a href="https://github.com/alishahidi1" target="_blank">My github link</a></p>
       <p><a href="products.html" target="_blank" title="Opens in the next page">Products</a></p>
       <p><a href="#terms">Terms</a></p>
+
+
+      <form>
+        <label for="fname">First Name: </label>
+        <input required id="fname" type="text"><br>
+        <label for="lname">Last Name:  </label>
+        <input id="lname" type="text"><br>
+        <input type="radio" name="Gender" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Female">
+        <label for="Female">Female</label>
+
+        <br>
+
+        <select multiple name="" id="">
+          <option value="">HTML</option>
+          <option selected value="">CSS</option>
+          <option value="">JS</option>
+        </select><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="date" name="" id="">
+
+        <br><input type="submit" value="Check">
+      </form>
       
       <img width="600" height="400" src="pic1.png" alt="Rock">
   
       <p></p>
-  
+
+
       <picture>
         <source srcset="blue.jpg" media="(min-width:650px)" >
         <source srcset="green.webp" media="(min-width:450px)" >
         <img width="600" height="400" src="pic1.png" alt="" >
       </picture>
       <p>You can play the following video:</p>
-      <video width="600" controls src="Colors Of The Chameleons.mp4"></video>
+      <video width="600" poster="vid-poster.svg" controls src="Colors Of The Chameleons.mp4"></video>
   
       <table>
         <caption>User Data</caption>
